@@ -427,23 +427,24 @@ height: 44px;
     display: flex;
     align-items: center;
     justify-content: center;
-    fill: #8E8F99;
     border-radius: 4px;
 
 }
 
-/* .customers-svg {
-    fill:currentColor;
-} */
+.customers-svg {
+    fill: #8E8F99;
+}
 
 .customers-link:is(:hover, :focus) {
     border-color: var(--color-brn-hover);
-    fill: var(--color-brn-hover);
+
+
+
 }
 
-/* .customers-link:is(:hover, :focus), .customers-svg{
+.customers-link:is(:hover, :focus) .customers-svg{
     fill: var(--color-brn-hover);
-} */
+}
 /* footer */
 
 .footer {
